@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.superior {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    position: relative; 
+}
+
+.superior::after { 
+    content: "";
+    position: absolute;
+    bottom: 0; 
+    left: 0;
+    width: 100%; 
+    border-bottom: 1px solid #ccc; 
+}
+
+.logo img {
+    width: 50px;
+    position: relative;
+    left: 50px;
+}
+
+.user-icons{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.instructor {
+    margin-right: auto;
+    font-size: 25px; 
+    font-family: Arial, sans-serif; 
+    color: rgba(124, 124, 124, 0.897)
+}
+
+.bi, .bi{
+    width: 30px; 
+    height: 30px;
+    margin-left: 10px;
+    fill: rgba(124, 124, 124, 0.897)
+}
+
+.izquierda {
+    height: 100vh;
+    width: 160px; 
+    background-color: #50dcffde; 
+    display: flex;
+    justify-content: flex-start; 
+    
+}
+.izquierda .Conocimiento{
+    margin-right: auto;
+    font-family: Arial, sans-serif; 
+    color: rgba(49, 49, 49, 0.836);
+    margin-top: 20px;
+}
+.izquierda svg {
+    width: 20px; 
+    height: 20px; 
+    margin-right: 5px;
+    fill: rgba(49, 49, 49, 0.836);
+    margin-top: 20px;
+
+}
+
+.panel {
+    display: flex; 
+    flex-direction: row; 
+    align-items: center; 
+    position: absolute; 
+    top: 90px; 
+    left: 165px; 
+    width: calc(100% - 160px); 
+    flex-wrap: nowrap; 
+}
+
+.panel div {
+    display: flex;
+    align-items: center;
+    margin-right: 46px; 
+    position: relative; 
+
+}
+
+.panel .motor {
+    font-size: 20px; 
+    font-family: Arial, sans-serif; 
+}
+
+.panel .cabina {
+    font-size: 20px; 
+    font-family: Arial, sans-serif; 
+}
+
+.panel .baterias {
+    font-size: 20px; 
+    font-family: Arial, sans-serif; 
+}
+
+.panel .direccion {
+    font-size: 20px; 
+    font-family: Arial, sans-serif; 
+}
+
+.panel .frenos {
+    font-size: 20px; 
+    font-family: Arial, sans-serif; 
+}
+
+.panel .motor {
+    font-size: 20px; 
+    font-family: Arial, sans-serif; 
+}
+
+.panel .ejes {
+    font-size: 20px; 
+    font-family: Arial, sans-serif; 
+}
+
+.panel .carroceria {
+    font-size: 20px; 
+    font-family: Arial, sans-serif; 
+}
+
+.panel .neumaticos {
+    font-size: 20px; 
+    font-family: Arial, sans-serif; 
+}
+
+.panel .embrague {
+    font-size: 20px; 
+    font-family: Arial, sans-serif; 
+}
+
+.panel div::after {
+    content: "";
+    position: absolute; 
+    top: 0; 
+    right: -10px; 
+    height: 100%; 
+    width: 2px; 
+    background-color: rgba(0, 0, 0, 0.541); 
+}
