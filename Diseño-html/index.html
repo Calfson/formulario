@@ -41,52 +41,533 @@
         </div>
 
         <div class="panel">
-
-            <div class="motor">
-                <span>Motor</span>
+         
+            <div class="motor" >
+                <button onclick="showForm('form-motor')">Motor</button>
             </div>
 
             <div class="cabina">
-                <span>Cabina</span>
+                <button onclick="showForm('form-cabina')">Cabina</button>
             </div>
 
             <div class="baterias">
-                <span>baterias</span>
+                <button onclick="showForm('form-baterias')">Baterias</button>
 
             </div>
 
             <div class="direccion">
-                <span>Direccion</span>
+                <button onclick="showForm('form-direccion')">Direccion</button>
 
             </div>
 
             <div class="frenos">
-                <span>Frenos</span>
+                <button onclick="showForm('form-frenos')">Frenos</button>
 
             </div>
 
             <div class="ejes">
-                <span>Ejes</span>
+                <button onclick="showForm('form-ejes')">Ejes</button>
 
             </div>
 
             <div class="carroceria">
-                <span>Carroceria</span>
+                <button onclick="showForm('form-carroceria')">Carroceria</button>
 
             </div>
 
             <div class="neumaticos">
-                <span>Cod.neumaticos</span>
+                <button onclick="showForm('form-neumaticos')">Cod.neumaticos</button>
 
             </div>
 
             <div class="embrague">
-                <span>Embrague</span>
+                <button  onclick="showForm('form-embrague')">Embrague</button>
 
             </div>
 
         </div>
-        
+
+
+
+        <div class="formularios">
+            <div id="form-motor" class="show">
+                <form>
+                    <div class="question">
+                        <p>Nivel de aceite del motor</p>
+                        <div class="circle-group">
+                            <input type="radio" id="radio1-1" name="radio1" value="option1">
+                            <label for="radio1-1"></label>
+                            <input type="radio" id="radio1-2" name="radio1" value="option2">
+                            <label for="radio1-2"></label>
+                            <input type="radio" id="radio1-3" name="radio1" value="option3">
+                            <label for="radio1-3"></label>
+                        </div>
+                    </div>
+                    
+                    <div class="question">
+                        <p>Nivel  refrigerante</p>
+                        <div class="circle-group">
+                            <input type="radio" id="radio2-1" name="radio2" value="option1">
+                            <label for="radio2-1"></label>
+                            <input type="radio" id="radio2-2" name="radio2" value="option2">
+                            <label for="radio2-2"></label>
+                            <input type="radio" id="radio2-3" name="radio2" value="option3">
+                            <label for="radio2-3"></label>
+                        </div>
+                    </div>
+                                        
+                    <div class="question">
+                        <p>Revisión visul del motor</p>
+                        <div class="circle-group">
+                            <input type="radio" id="radio3-1" name="radio3" value="option1">
+                            <label for="radio3-1"></label>
+                            <input type="radio" id="radio3-2" name="radio3" value="option2">
+                            <label for="radio3-2"></label>
+                            <input type="radio" id="radio3-3" name="radio3" value="option3">
+                            <label for="radio3-3"></label>
+                        </div>
+                    </div>
+
+                    <div class="question">
+                        <p>Fuga de aceite</p>
+                        <div class="circle-group">
+                            <input type="radio" id="radio4-1" name="radio4" value="option1">
+                            <label for="radio4-1"></label>
+                            <input type="radio" id="radio4-2" name="radio4" value="option2">
+                            <label for="radio4-2"></label>
+                            <input type="radio" id="radio4-3" name="radio4" value="option3">
+                            <label for="radio4-3"></label>
+                        </div>
+                    </div>
+                    <div class="question">
+                        <p>Condiciones de las bandas</p>
+                        <div class="circle-group">
+                            <input type="radio" id="radio5-1" name="radio5" value="option1">
+                            <label for="radio5-1"></label>
+                            <input type="radio" id="radio5-2" name="radio5" value="option2">
+                            <label for="radio5-2"></label>
+                            <input type="radio" id="radio5-3" name="radio5" value="option3">
+                            <label for="radio5-3"></label>
+                        </div>
+                    </div>
+                    <div class="question">
+                        <p>Fuga de combustible</p>
+                        <div class="circle-group">
+                            <input type="radio" id="radio6-1" name="radio6" value="option1">
+                            <label for="radio6-1"></label>
+                            <input type="radio" id="radio6-2" name="radio6" value="option2">
+                            <label for="radio6-2"></label>
+                            <input type="radio" id="radio6-3" name="radio6" value="option3">
+                            <label for="radio6-3"></label>
+                        </div>
+                    </div>
+                    <div class="question">
+                        <p>Indicador de friltro de aire</p>
+                        <div class="circle-group">
+                            <input type="radio" id="radio7-1" name="radio7" value="option1">
+                            <label for="radio7-1"></label>
+                            <input type="radio" id="radio7-2" name="radio7" value="option2">
+                            <label for="radio7-2"></label>
+                            <input type="radio" id="radio7-3" name="radio7" value="option3">
+                            <label for="radio7-3"></label>
+                        </div>
+                    </div>
+    
+                </form>
+            </div>
+
+
+
+            <div id="form-cabina">
+                <form>
+                    <div class="question">
+                        <p>Documento de vehículo</p>
+                        <div class="circle-group">
+                            <input type="radio" id="radio01-1" name="radio1" value="option1">
+                            <label for="radio01-1"></label>
+                            <input type="radio" id="radio01-2" name="radio1" value="option2">
+                            <label for="radio01-2"></label>
+                            <input type="radio" id="radio01-3" name="radio1" value="option3">
+                            <label for="radio01-3"></label>
+                        </div>
+                    </div>
+                    
+                    <div class="question">
+                        <p>Vidrio y retrovisores</p>
+                        <div class="circle-group">
+                            <input type="radio" id="radio02-1" name="radio2" value="option1">
+                            <label for="radio02-1"></label>
+                            <input type="radio" id="radio02-2" name="radio2" value="option2">
+                            <label for="radio02-2"></label>
+                            <input type="radio" id="radio02-3" name="radio2" value="option3">
+                            <label for="radio02-3"></label>
+                        </div>
+                    </div>
+                                        
+                    <div class="question">
+                        <p>Bocina/alarmas</p>
+                        <div class="circle-group">
+                            <input type="radio" id="radio03-1" name="radio3" value="option1">
+                            <label for="radio03-1"></label>
+                            <input type="radio" id="radio03-2" name="radio3" value="option2">
+                            <label for="radio03-2"></label>
+                            <input type="radio" id="radio03-3" name="radio3" value="option3">
+                            <label for="radio03-3"></label>
+                        </div>
+                    </div>
+
+                    <div class="question">
+                        <p>Limpia parabrisas</p>
+                        <div class="circle-group">
+                            <input type="radio" id="radio04-1" name="radio4" value="option1">
+                            <label for="radio04-1"></label>
+                            <input type="radio" id="radio04-2" name="radio4" value="option2">
+                            <label for="radio04-2"></label>
+                            <input type="radio" id="radio04-3" name="radio4" value="option3">
+                            <label for="radio04-3"></label>
+                        </div>
+                    </div>
+                    <div class="question">
+                        <p>Luces en general</p>
+                        <div class="circle-group">
+                            <input type="radio" id="radio05-1" name="radio5" value="option1">
+                            <label for="radio05-1"></label>
+                            <input type="radio" id="radio05-2" name="radio5" value="option2">
+                            <label for="radio05-2"></label>
+                            <input type="radio" id="radio05-3" name="radio5" value="option3">
+                            <label for="radio05-3"></label>
+                        </div>
+                    </div>
+                    <div class="question">
+                        <p>Faros delanteros</p>
+                        <div class="circle-group">
+                            <input type="radio" id="radio06-1" name="radio6" value="option1">
+                            <label for="radio06-1"></label>
+                            <input type="radio" id="radio06-2" name="radio6" value="option2">
+                            <label for="radio06-2"></label>
+                            <input type="radio" id="radio06-3" name="radio6" value="option3">
+                            <label for="radio06-3"></label>
+                        </div>
+                    </div>
+                    <div class="question">
+                        <p>Asientos</p>
+                        <div class="circle-group">
+                            <input type="radio" id="radio07-1" name="radio7" value="option1">
+                            <label for="radio07-1"></label>
+                            <input type="radio" id="radio07-2" name="radio7" value="option2">
+                            <label for="radio07-2"></label>
+                            <input type="radio" id="radio07-3" name="radio7" value="option3">
+                            <label for="radio07-3"></label>
+                        </div>
+                    </div>
+                    <div class="question">
+                        <p>Cinturones de seguridad</p>
+                        <div class="circle-group">
+                            <input type="radio" id="radio08-1" name="radio8" value="option1">
+                            <label for="radio08-1"></label>
+                            <input type="radio" id="radio08-2" name="radio8" value="option2">
+                            <label for="radio08-2"></label>
+                            <input type="radio" id="radio08-3" name="radio8" value="option3">
+                            <label for="radio08-3"></label>
+                        </div>
+                    </div>
+                    <div class="question">
+                        <p>Extintor(csrgs y estado)</p>
+                        <div class="circle-group">
+                            <input type="radio" id="radio09-1" name="radio9" value="option1">
+                            <label for="radio09-1"></label>
+                            <input type="radio" id="radio09-2" name="radio9" value="option2">
+                            <label for="radio09-2"></label>
+                            <input type="radio" id="radio09-3" name="radio9" value="option3">
+                            <label for="radio09-3"></label>
+                        </div>
+                    </div>
+                    <div class="question">
+                        <p>Botiquin y tri.seguridad</p>
+                        <div class="circle-group">
+                            <input type="radio" id="radio010-1" name="radio10" value="option1">
+                            <label for="radio010-1"></label>
+                            <input type="radio" id="radio010-2" name="radio10" value="option2">
+                            <label for="radio010-2"></label>
+                            <input type="radio" id="radio010-3" name="radio10" value="option3">
+                            <label for="radio010-3"></label>
+                        </div>
+                    </div>
+                    <div class="question">
+                        <p>Aire acondicionado</p>
+                        <div class="circle-group">
+                            <input type="radio" id="radio011-1" name="radio11" value="option1">
+                            <label for="radio011-1"></label>
+                            <input type="radio" id="radio011-2" name="radio11" value="option2">
+                            <label for="radio011-2"></label>
+                            <input type="radio" id="radio011-3" name="radio11" value="option3">
+                            <label for="radio011-3"></label>
+                        </div>
+                    </div>
+                    <div class="question">
+                        <p>Seguro de puertas</p>
+                        <div class="circle-group">
+                            <input type="radio" id="radio012-1" name="radio12" value="option1">
+                            <label for="radio012-1"></label>
+                            <input type="radio" id="radio012-2" name="radio12" value="option2">
+                            <label for="radio012-2"></label>
+                            <input type="radio" id="radio012-3" name="radio12" value="option3">
+                            <label for="radio012-3"></label>
+                        </div>
+                    </div>
+                    <div class="question">
+                        <p>Tablerode instrumento</p>
+                        <div class="circle-group">
+                            <input type="radio" id="radio013-1" name="radio13" value="option1">
+                            <label for="radio013-1"></label>
+                            <input type="radio" id="radio013-2" name="radio13" value="option2">
+                            <label for="radio013-2"></label>
+                            <input type="radio" id="radio013-3" name="radio13" value="option3">
+                            <label for="radio013-3"></label>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+
+
+            <div id="form-baterias">
+                <form>
+                    <div class="question">
+                        <p>Estado de la bateria</p>
+                        <div class="circle-group">
+                            <input type="radio" id="radio001-1" name="radio1" value="option1">
+                            <label for="radio001-1"></label>
+                            <input type="radio" id="radio001-2" name="radio1" value="option2">
+                            <label for="radio001-2"></label>
+                            <input type="radio" id="radio001-3" name="radio1" value="option3">
+                            <label for="radio001-3"></label>
+                        </div>
+                    </div>
+                    
+                    <div class="question">
+                        <p>Revisar terminales /cables</p>
+                        <div class="circle-group">
+                            <input type="radio" id="radio002-1" name="radio2" value="option1">
+                            <label for="radio002-1"></label>
+                            <input type="radio" id="radio002-2" name="radio2" value="option2">
+                            <label for="radio002-2"></label>
+                            <input type="radio" id="radio002-3" name="radio2" value="option3">
+                            <label for="radio002-3"></label>
+                        </div>
+                    </div>
+    
+                </form>
+            </div>
+
+
+
+            <div id="form-direccion">
+                <form>
+                    <div class="question">
+                        <p>Nivel de aceite hidraulico</p>
+                        <div class="circle-group">
+                            <input type="radio" id="radio0_1-1" name="radio1" value="option1">
+                            <label for="radio0_1-1"></label>
+                            <input type="radio" id="radio0_1-2" name="radio1" value="option2">
+                            <label for="radio0_1-2"></label>
+                            <input type="radio" id="radio0_1-3" name="radio1" value="option3">
+                            <label for="radio0_1-3"></label>
+                        </div>
+                    </div>
+                    
+                    <div class="question">
+                        <p>Fuga de aceite</p>
+                        <div class="circle-group">
+                            <input type="radio" id="radio0_2-1" name="radio2" value="option1">
+                            <label for="radio0_2-1"></label>
+                            <input type="radio" id="radio0_2-2" name="radio2" value="option2">
+                            <label for="radio0_2-2"></label>
+                            <input type="radio" id="radio0_2-3" name="radio2" value="option3">
+                            <label for="radio0_2-3"></label>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+
+
+
+            <div id="form-frenos">
+                <form>
+                    <div class="question">
+                        <p>Nivel de liquido de frenos</p>
+                        <div class="circle-group">
+                            <input type="radio" id="radio0_01-1" name="radio1" value="option1">
+                            <label for="radio0_01-1"></label>
+                            <input type="radio" id="radio0_01-2" name="radio1" value="option2">
+                            <label for="radio0_01-2"></label>
+                            <input type="radio" id="radio0_01-3" name="radio1" value="option3">
+                            <label for="radio0_01-3"></label>
+                        </div>
+                    </div>
+                    
+                    <div class="question">
+                        <p>Nivel de liquido de frenos</p>
+                        <div class="circle-group">
+                            <input type="radio" id="radio0_02-1" name="radio2" value="option1">
+                            <label for="radio0_02-1"></label>
+                            <input type="radio" id="radio0_02-2" name="radio2" value="option2">
+                            <label for="radio0_02-2"></label>
+                            <input type="radio" id="radio0_02-3" name="radio2" value="option3">
+                            <label for="radio0_02-3"></label>
+                        </div>
+                    </div>
+
+                    <div class="question">
+                        <p>Funcionamiento de frenos estacional</p>
+                        <div class="circle-group">
+                            <input type="radio" id="radio0_03-1" name="radio3" value="option1">
+                            <label for="radio0_03-1"></label>
+                            <input type="radio" id="radio0_03-2" name="radio3" value="option2">
+                            <label for="radio0_03-2"></label>
+                            <input type="radio" id="radio0_03-3" name="radio3" value="option3">
+                            <label for="radio0_03-3"></label>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+
+
+
+            <div id="form-ejes">
+                <form>
+                    <div class="question">
+                        <p>Inspección de resorte</p>
+                        <div class="circle-group">
+                            <input type="radio" id="radio0_0_1-1" name="radio1" value="option1">
+                            <label for="radio0_0_1-1"></label>
+                            <input type="radio" id="radio0_0_1-2" name="radio1" value="option2">
+                            <label for="radio0_0_1-2"></label>
+                            <input type="radio" id="radio0_0_1-3" name="radio1" value="option3">
+                            <label for="radio0_0_1-3"></label>
+                        </div>
+                    </div>
+                    
+                    <div class="question">
+                        <p>Inspección de abrazaderas de paquetes</p>
+                        <div class="circle-group">
+                            <input type="radio" id="radio0_0_2-1" name="radio2" value="option1">
+                            <label for="radio0_0_2-1"></label>
+                            <input type="radio" id="radio0_0_2-2" name="radio2" value="option2">
+                            <label for="radio0_0_2-2"></label>
+                            <input type="radio" id="radio0_0_2-3" name="radio2" value="option3">
+                            <label for="radio0_0_2-3"></label>
+                        </div>
+                    </div>
+
+                    <div class="question">
+                        <p>Funcionamiento de frenos estacional</p>
+                        <div class="circle-group">
+                            <input type="radio" id="radio0_0_3-1" name="radio3" value="option1">
+                            <label for="radio0_0_3-1"></label>
+                            <input type="radio" id="radio0_0_3-2" name="radio3" value="option2">
+                            <label for="radio0_0_3-2"></label>
+                            <input type="radio" id="radio0_0_3-3" name="radio3" value="option3">
+                            <label for="radio0_0_3-3"></label>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+
+
+
+            <div id="form-carroceria">
+                <form>
+                    <div class="question">
+                        <p>Revisar estado de cinta reflectivas, luz estroboscópica giratoria, pértiga y señalización</p>
+                        <div class="circle-group">
+                            <input type="radio" id="radio0_0_01-1" name="radio1" value="option1">
+                            <label for="radio0_0_01-1"></label>
+                            <input type="radio" id="radio0_0_01-2" name="radio1" value="option2">
+                            <label for="radio0_0_01-2"></label>
+                            <input type="radio" id="radio0_0_01-3" name="radio1" value="option3">
+                            <label for="radio0_0_01-3"></label>
+                        </div>
+                    </div>
+                    
+                    <div class="question">
+                        <p>Daños general exterior, abolladuras, pintura,etc</p>
+                        <div class="circle-group">
+                            <input type="radio" id="radio0_0_02-1" name="radio2" value="option1">
+                            <label for="radio0_0_2-1"></label>
+                            <input type="radio" id="radio0_0_02-2" name="radio2" value="option2">
+                            <label for="radio0_0_02-2"></label>
+                            <input type="radio" id="radio0_0_02-3" name="radio2" value="option3">
+                            <label for="radio0_0_02-3"></label>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+
+
+            <div id="form-neumaticos">
+                <form>
+                    <div class="question">
+                        <p>Condiciones labrado y presión</p>
+                        <div class="circle-group">
+                            <input type="radio" id="radio0_1_01-1" name="radio1" value="option1">
+                            <label for="radio0_1_01-1"></label>
+                            <input type="radio" id="radio0_1_01-2" name="radio1" value="option2">
+                            <label for="radio0_1_01-2"></label>
+                            <input type="radio" id="radio0_0_01-3" name="radio1" value="option3">
+                            <label for="radio0_1_01-3"></label>
+                        </div>
+                    </div>
+                    
+                    <div class="question">
+                        <p>Espárragos y tuercas</p>
+                        <div class="circle-group">
+                            <input type="radio" id="radio0_1_02-1" name="radio2" value="option1">
+                            <label for="radio0_1_02-1"></label>
+                            <input type="radio" id="radio0_1_02-2" name="radio2" value="option2">
+                            <label for="radio0_1_02-2"></label>
+                            <input type="radio" id="radio0_1_02-3" name="radio2" value="option3">
+                            <label for="radio0_1_02-3"></label>
+                        </div>
+                    </div>
+
+                    <div class="question">
+                        <p>Neumatico de emergencia, llave/rueda,gata</p>
+                        <div class="circle-group">
+                            <input type="radio" id="radio0_1_03-1" name="radio3" value="option1">
+                            <label for="radio0_1_03-1"></label>
+                            <input type="radio" id="radio0_1_03-2" name="radio3" value="option2">
+                            <label for="radio0_1_03-2"></label>
+                            <input type="radio" id="radio0_1_03-3" name="radio3" value="option3">
+                            <label for="radio0_1_03-3"></label>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+            <div id="form-embrague">
+                <form>
+                    <div class="question">
+                        <p>Funcionamiento del embreague</p>
+                        <div class="circle-group">
+                            <input type="radio" id="radio0_1_11-1" name="radio1" value="option1">
+                            <label for="radio0_1_11-1"></label>
+                            <input type="radio" id="radio0_1_11-2" name="radio1" value="option2">
+                            <label for="radio0_1_11-2"></label>
+                            <input type="radio" id="radio0_1_11-3" name="radio1" value="option3">
+                            <label for="radio0_1_11-3"></label>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+        <script src="Nav.js"></script>
+
     </body>
 
 </html>

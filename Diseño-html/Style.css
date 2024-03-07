@@ -77,64 +77,32 @@ body {
     align-items: center; 
     position: absolute; 
     top: 90px; 
-    left: 165px; 
-    width: calc(100% - 160px); 
-    flex-wrap: nowrap; 
+    right: -30px; 
+    width: calc(100% - 100%px); 
+    flex-wrap: nowrap;  
 }
 
 .panel div {
     display: flex;
     align-items: center;
-    margin-right: 46px; 
+    margin-right: 35px; 
     position: relative; 
 
 }
 
-.panel .motor {
-    font-size: 20px; 
-    font-family: Arial, sans-serif; 
+.panel button {
+    border: none; /* Elimina el borde de los botones */
+    background: none; /* Ajusta el fondo transparente si es necesario */
 }
 
-.panel .cabina {
-    font-size: 20px; 
-    font-family: Arial, sans-serif; 
-}
-
-.panel .baterias {
-    font-size: 20px; 
-    font-family: Arial, sans-serif; 
-}
-
-.panel .direccion {
-    font-size: 20px; 
-    font-family: Arial, sans-serif; 
-}
-
-.panel .frenos {
-    font-size: 20px; 
-    font-family: Arial, sans-serif; 
-}
-
-.panel .motor {
-    font-size: 20px; 
-    font-family: Arial, sans-serif; 
-}
-
-.panel .ejes {
-    font-size: 20px; 
-    font-family: Arial, sans-serif; 
-}
-
-.panel .carroceria {
-    font-size: 20px; 
-    font-family: Arial, sans-serif; 
-}
-
-.panel .neumaticos {
-    font-size: 20px; 
-    font-family: Arial, sans-serif; 
-}
-
+.panel .motor,
+.panel .cabina,
+.panel .baterias,
+.panel .direccion,
+.panel .frenos,
+.panel .ejes,
+.panel .carroceria,
+.panel .neumaticos,
 .panel .embrague {
     font-size: 20px; 
     font-family: Arial, sans-serif; 
@@ -148,4 +116,57 @@ body {
     height: 100%; 
     width: 2px; 
     background-color: rgba(0, 0, 0, 0.541); 
+}
+
+.formularios {
+    display: flex; 
+    align-items: center; 
+    position: absolute; 
+    top: 300px; 
+    right: -50px; 
+    width: calc(100% - 150px);
+    height: calc(100% - 100%); 
+}
+.formularios > div {
+    display: none;
+}
+.formularios > div.show {
+    display: block;
+}
+.question {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* Espacio entre cada pregunta */
+}
+
+.question p {
+    margin: 0; /* Elimina el margen predeterminado del párrafo */
+    margin-right: 100px; /* Espacio entre el texto y los círculos */
+}
+
+.circle-group {
+    display: flex;
+    align-items: center;
+}
+
+input[type="radio"] {
+    display: none; /* Oculta los botones de radio nativos */
+}
+
+input[type="radio"] + label {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #000;
+    margin-right: 10px; /* Espacio entre los círculos */
+    cursor: pointer;
+}
+
+input[type="radio"]:checked + label {
+    background-color: #f5cc48;
+}
+
+#form-cabina {
+    margin-top: 260px; /* Ajusta el valor según sea necesario */
 }
