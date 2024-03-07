@@ -56,20 +56,15 @@ body {
     justify-content: flex-start; 
     
 }
+
 .izquierda .Conocimiento{
     margin-right: auto;
     font-family: Arial, sans-serif; 
     color: rgba(49, 49, 49, 0.836);
     margin-top: 20px;
 }
-.izquierda svg {
-    width: 20px; 
-    height: 20px; 
-    margin-right: 5px;
-    fill: rgba(49, 49, 49, 0.836);
-    margin-top: 20px;
 
-}
+
 
 .panel {
     display: flex; 
