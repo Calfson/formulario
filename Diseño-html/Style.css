@@ -28,11 +28,6 @@ body {
     left: 50px;
 }
 
-.user-icons{
-    display: flex;
-    align-items: center;
-    margin-right: 30px;
-}
 
 .instructor {
     margin-right: auto;
