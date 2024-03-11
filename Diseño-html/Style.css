@@ -1,112 +1,3 @@
-.Condiciones{
-    display: flex; 
-    align-items: center; 
-     
-    top: 300px; 
-    right: -50px; 
-    width: calc(100% - 150px);
-    height: calc(100% - 100%); 
-}
-
-.Condiciones {
-    align-items: center; 
-    position: absolute; 
-    top: 180px; 
-    right: -400px; 
-   
-}
-
-.Condiciones div {
-    padding: 10px;
-}
-
-.formularios {
-    display: flex; 
-    align-items: center; 
-    position: absolute; 
-    top: 350px; 
-    right: -50px; 
-    width: calc(100% - 150px);
-    height: calc(100% - 100%); 
-}
-.formularios > div {
-    display: none;
-}
-.formularios > div.show {
-    display: block;
-}
-
-.question {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px; 
-}
-
-.question p {
-    margin: 0;
-    margin-right: 200px; 
-}
-
-
-input[type="radio"] {
-    display: none;
-}
-
-input[type="radio"] + label {
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    border: 2px solid #000;
-    margin-right: 68px;
-    cursor: pointer;
-}
-
-input[type="radio"]:checked + label {
-    background-color: #f5cc48;
-}
-/* mover formulario */
-
-.formularios div {
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-}
-.text-container pre {
-    font-family: Arial, sans-serif; 
-    font-size: 16px; 
-}
-
-#form-cabina {
-    margin-top: 278px; 
-}
-
-#form-baterias {
-    margin-top: -225px; 
-}
-#form-direccion {
-    margin-top: -225px; 
-}
-#form-frenos {
-    margin-top: -178px; 
-}
-#form-ejes{
-    margin-top: -178px; 
-
-}
-#form-neumaticos{
-    margin-top: -178px; 
-
-}
-#form-embrague{
-    margin-top: -272px; 
-
-}
-#form-carroceria{
-    margin-top: -158px; 
-
-}
-
-
 /* motor espacio radios */
 .question:nth-child(1) .circle-group-motor {
     margin-top: 10px;
@@ -114,10 +5,10 @@ input[type="radio"]:checked + label {
 
 }
 .question:nth-child(2) .circle-group-motor2 {
-    padding-left: 257px;
+    padding-left: 256px;
 }
 .question:nth-child(3) .circle-group-motor3 {
-    padding-left: 210px;
+    padding-left: 209px;
 
 }
 .question:nth-child(4) .circle-group-motor4 {
@@ -180,7 +71,7 @@ input[type="radio"]:checked + label {
 
 /* baterias espacio radios */
 .question:nth-child(1) .circle-group-baterias  {
-    margin-left: 36px; 
+    margin-left: 356px; 
 }
 .question:nth-child(2) .circle-group-baterias2 {
     margin-left: 190px; 
@@ -238,4 +129,11 @@ input[type="radio"]:checked + label {
 }
 .question:nth-child(2) .circle-group-carroceria2{
     margin-left: 42px; 
+}
+
+/*forma del boton siguente */
+
+button[type="button"] {
+    border-radius: 5px;
+    margin-left: 320px;
 }
