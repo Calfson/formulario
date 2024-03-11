@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    overflow-x:hidden;
 }
 
 
@@ -77,8 +78,8 @@ body {
 }
 
 .panel button {
-    border: none; /* Elimina el borde de los botones */
-    background: none; /* Ajusta el fondo transparente si es necesario */
+    border: none; 
+    background: none; 
 }
 
 .panel .motor,
@@ -103,22 +104,17 @@ body {
     width: 2px; 
     background-color: rgba(0, 0, 0, 0.541); 
 }
-.Condiciones{
-    display: flex; 
-    align-items: center; 
-     
-    top: 300px; 
-    right: -50px; 
-    width: calc(100% - 150px);
-    height: calc(100% - 100%); 
-}
+
 
 .Condiciones {
+    display: flex; 
     align-items: center; 
     position: absolute; 
     top: 180px; 
-    right: -400px; 
-   
+    padding-inline: 100px;
+    right: -320px; 
+    width: calc(100% - 350px);
+    height: calc(100% - 100%);
 }
 
 .Condiciones div {
@@ -130,7 +126,7 @@ body {
     align-items: center; 
     position: absolute; 
     top: 350px; 
-    right: -50px; 
+    right: -150px; 
     width: calc(100% - 150px);
     height: calc(100% - 100%); 
 }
@@ -147,9 +143,9 @@ body {
     margin-bottom: 20px; 
 }
 
-.question p {
+.question div {
     margin: 0;
-    margin-right: 200px; 
+    margin-right: 120px; 
 }
 
 
@@ -203,7 +199,7 @@ input[type="radio"]:checked + label {
 
 }
 #form-embrague{
-    margin-top: -272px; 
+    margin-top: -242px; 
 
 }
 #form-carroceria{
@@ -219,10 +215,10 @@ input[type="radio"]:checked + label {
 
 }
 .question:nth-child(2) .circle-group-motor2 {
-    padding-left: 257px;
+    padding-left: 256px;
 }
 .question:nth-child(3) .circle-group-motor3 {
-    padding-left: 210px;
+    padding-left: 209px;
 
 }
 .question:nth-child(4) .circle-group-motor4 {
@@ -285,7 +281,7 @@ input[type="radio"]:checked + label {
 
 /* baterias espacio radios */
 .question:nth-child(1) .circle-group-baterias  {
-    margin-left: 36px; 
+    margin-left: 356px; 
 }
 .question:nth-child(2) .circle-group-baterias2 {
     margin-left: 190px; 
@@ -343,4 +339,11 @@ input[type="radio"]:checked + label {
 }
 .question:nth-child(2) .circle-group-carroceria2{
     margin-left: 42px; 
+}
+
+/*forma del boton siguente */
+
+button[type="button"] {
+    border-radius: 5px;
+    margin-left: 320px;
 }
