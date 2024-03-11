@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x:hidden;
+}
+
+
+.superior {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    position: relative; 
+}
+
+.superior::after { 
+    content: "";
+    position: absolute;
+    bottom: 0; 
+    left: 0;
+    width: 100%; 
+    border-bottom: 1px solid #ccc; 
+}
+
+.logo img {
+    width: 50px;
+    position: relative;
+    left: 50px;
+}
+
+
+.instructor {
+    margin-right: auto;
+    font-size: 25px; 
+    font-family: Arial, sans-serif; 
+    color: rgba(124, 124, 124, 0.897)
+}
+
+
+
+.izquierda {
+    height: 100vh;
+    width: 150px; 
+    background-color: #50dcffde; 
+    display: flex;
+    justify-content: flex-start; 
+    
+}
+
+.izquierda .Conocimiento{
+    margin-right: auto;
+    font-family: Arial, sans-serif; 
+    color: rgba(49, 49, 49, 0.836);
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+
+.panel {
+    display: flex; 
+    flex-direction: row; 
+    align-items: center; 
+    position: absolute; 
+    top: 90px; 
+    right: -30px; 
+    width: calc(100% - 100%px); 
+    flex-wrap: nowrap;  
+}
+
+.panel div {
+    display: flex;
+    align-items: center;
+    margin-right: 35px; 
+    position: relative; 
+
+}
+
+.panel button {
+    border: none; 
+    background: none; 
+}
+
+.panel .motor,
+.panel .cabina,
+.panel .baterias,
+.panel .direccion,
+.panel .frenos,
+.panel .ejes,
+.panel .carroceria,
+.panel .neumaticos,
+.panel .embrague {
+    font-size: 20px; 
+    font-family: Arial, sans-serif; 
+}
+
+.panel div::after {
+    content: "";
+    position: absolute; 
+    top: 0; 
+    right: -10px; 
+    height: 100%; 
+    width: 2px; 
+    background-color: rgba(0, 0, 0, 0.541); 
+}
+
+#texto-comentario {
+    height: 5em; 
+    width: 200%; 
+    border-radius: 10px;
+    padding-left: 10px; 
+    margin-bottom: 20px; 
+
+}
+#cancelar,#guardar {
+    border-radius: 5px;
+    
+}
+
+.comentario{
+    display: flex; 
+    align-items: center; 
+    position: absolute; 
+    top: 250px; 
+    right: -438px; 
+    width: calc(100% - 150px);
+    height: calc(100% - 100%);
+}
+
+#formulario-comentario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
